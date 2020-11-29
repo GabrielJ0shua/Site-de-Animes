@@ -1,0 +1,29 @@
+<tr>
+			<td>
+					<a href="https://www.crunchyroll.com/pt-br/my-hero-academia">
+				<img src="bk.jpg" alt="Hero Academia 4" width="150" height="200"></a></td>
+				<td>
+					<a href="https://www.crunchyroll.com/pt-br/one-piece">
+				<img src="op.jpg" alt="One piece" width="150" height="200"></a></td>
+				<td>
+					<a href="https://www.crunchyroll.com/pt-br/fategrand-order-first-order">
+				<img src="ft.jpg" alt="Fate Grand Order" width="150" height="200"> </a></td>
+				<td>
+					<a href="https://www.netflix.com/title/80050063">
+				<img src="s7.jpg" alt="Nanatsu no Taizai 3" width="150" height="200"> </a></td>
+				<td>
+					<a href="https://www.crunchyroll.com/pt-br/radiant">
+				<img src="rad.jpg" alt="Radiant 2" width="150" height="200"> </a></td>
+				<td>
+					<a href="https://www.crunchyroll.com/pt-br/ahiru-no-sora">
+				<img src="Ahiru.jpg" alt="Ahiru no Sora" width="150" height="200"> </a></td>
+				<td>
+					<a href="https://www.crunchyroll.com/pt-br/chihayafuru">
+				<img src="Chiha.jpg" alt="Chihayafuru 3" width="150" height="200"> </a></td>
+				<td>
+					<a href="https://www.google.com/search?q=kabukichou+sherlock+crunchyroll&oq=Kabukichou+Sherlock+c&aqs=chrome.3.69i57j0l6j69i60.5804j0j7&sourceid=chrome&ie=UTF-8">
+				<img src="sher.jpg" alt="Kabukichou Sherlock" width="150" height="200"> </a></td>
+				<td>
+					<a href="https://www.crunchyroll.com/pt-br/welcome-to-demon-school-iruma-kun">
+				<img src="Iruma.jpg" alt="Iruma-kun" width="150" height="200"> </a></td>
+			</tr>

@@ -1,0 +1,64 @@
+BD
+
+CREATE DATABASE IF NOT EXISTS `anime` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+
+CREATE TABLE IF NOT EXISTS `desenhos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(20) NOT NULL,
+  `previa` text,
+  `genero` varchar(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `desenhos` (`id`, `nome`, `previa`, `genero`) VALUES
+(1, 'One piece', 'Vou virar um pirata', 'Aventura'),
+(14, 'Iruma', 'Sou um virjão da porra', 'Comedia');
+COMMIT;
+____________________________________________________________________________________________________________________________
+create database `nome_do_banco`;
+
+create table `nome_da_tabela`(
+variaveis varchar(30),
+variaveis float,
+variaveis char(),
+variaveis,
+variaveis,
+variaveis,
+variaveis
+); 
+
+create database `nome_do_banco` default character set utf8 default collate utf8_general_ci;
+
+create table `nome_da_tabela`(
+variaveis varchar(30) NOT NULL,
+variaveis float,
+variaveis char(),
+variaveis ENUM('V','F'),
+variaveis DECIMAL (20,2),
+variaveis DEFAULT 'BRASIL',
+variaveis
+)default charset = latin1S; 
+
+drop database nome_do_banco;
+drop table nome_da_tabela;
+____________________________________________________________________________________________________________________________
+chaves estrangeiras:
+precisa ser InnoBD;
+alter table `nome_do_banco` add column `nome_da_tabela` int;
+alter table `nome_do_banco` add foreing key (`nome`) references Nome(idnome);
+
+id int not null auto_increment, ... primary key (id)
+
+insert into nome_municipal (nome,apelido) values ('ou','oi')
+
+ALTER TABLE `teste-1.0.0`.`nome` 
+ADD INDEX `apelido_idx` (`apelido` ASC) VISIBLE;
+;
+ALTER TABLE `teste-1.0.0`.`nome` 
+ADD CONSTRAINT `apelido`
+  FOREIGN KEY (`apelido`)
+  REFERENCES `teste-1.0.0`.`valores2015` (`ApelidoID`)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION;
+
+DELETE FROM `teste_2`.`valores_anuais` WHERE (`ID` = '3');

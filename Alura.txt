@@ -1,0 +1,9 @@
+Alura:
+prompt() escreva algo
+alert() mostra algo
+document.write () apaga td e mostra só o q escreveu
+document.write ( peso = prompt('Qual é seu peso?'),a = prompt('Qual é sua altura?'), '   Sua condição é:', peso/(a*a) )
+document.write ( E = prompt('Qual é sua idade?'),a = prompt('Cloque todas as idades de suas irmãs?'), '   A média é:', E+a/4 )
+document.write (a = prompt('ano em que sua avó nasceu: '),  '////////////Sua avó tem:  ', 2020-a )
+td salvo no code pen q oo login é github;
+html básico;

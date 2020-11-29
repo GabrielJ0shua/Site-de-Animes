@@ -1,0 +1,9 @@
+PHP
+<?php
+concatenar .
+** elevar
+echo mostrar
+"/n" pula linha
+$ declarar variavel
+$bla = "$bla1 $bla2" concatenar tbm
+; em td fim de código (echo $bla ;)

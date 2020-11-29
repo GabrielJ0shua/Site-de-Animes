@@ -1,0 +1,112 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Ani fury</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="{% static 'style.css' %}" >
+		<link rel="shortcut icon" href="https://pm1.narvii.com/6644/44b9f6ad53d88260d05eb5defe73608d22c7122a_00.jpg" type="image/x-icon" />
+	</head>
+
+	<body>
+		<h1>Vamos Maratonar?</h1>
+		<div id="divBusca">
+			<input class="bonito" type="text" id="pes" maxlength="200" placeholder="Nome, Gênero e outros..."/>
+			<input type="image" src="https://www.controlstar.com.br/images/search3.png" onclick="pesquisar()" width="19" height="19">
+		</div>
+
+		<p><h4>Adicionados Recentimente:</h4></p>
+
+		<div class="selecao">
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/black-clover">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire2/1a39d39cbe3346cce5e44577cbb895041579741401_full.jpg" alt="black" >
+				</a>
+			</div>
+
+			<div class="animes_baner">	
+				<a href="https://www.crunchyroll.com/pt-br/one-piece">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire4/8056a82e973dde98ebb82abd39dc69731564519729_full.jpg" alt="One piece" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/dr-stone">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire3/cd61320a82ff1c1ff30f08f464a97f3f1571635066_full.jpg" alt="dr" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/jojos-bizarre-adventure">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire3/04b29833ccaaf2ee6bda1d08f2f02ecf1539039197_full.jpg" alt="jojo" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/the-rising-of-the-shield-hero">
+				<img class="img" src="https://img1.ak.crunchyroll.com/i/spire4/25627becf63b169d19af7efee6122e791555537428_full.jpg" alt="shield" >
+				</a>
+			</div>
+		</div>
+
+		<h4>Temporada de inverno:</h4>
+
+		<div class="selecao">
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/my-hero-academia">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire2/cccce22d1dfaaf713284a617ee0b539a1572467883_full.jpg" alt="Hero Academia 4" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/one-piece">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire4/8056a82e973dde98ebb82abd39dc69731564519729_full.jpg" alt="One piece" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/fategrand-order-first-order">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire3/6a9b9b6ea239be382481eda83c354c761483176773_full.jpg" alt="Fate Grand Order" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.netflix.com/title/80050063">
+					<img class="img" src="https://animesonline.cc/wp-content/uploads/2019/09/fJ0Jy7NNdqIuYcYNqeK7YJHVLL0-185x278.jpg" alt="Nanatsu no Taizai 3" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/radiant">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire2/e75203df3d9fbee76d042cb172994f1d1571271082_full.jpg" alt="Radiant 2" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/ahiru-no-sora">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire3/c202f485b6c4a286e8867bb9bbb782361585936040_full.jpg" alt="Ahiru no Sora" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/chihayafuru">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire1/3711c8d7170680a6f6fa3503b2ca7da31572467477_full.jpg" alt="Chihayafuru 3" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.google.com/search?q=kabukichou+sherlock+crunchyroll&oq=Kabukichou+Sherlock+c&aqs=chrome.3.69i57j0l6j69i60.5804j0j7&sourceid=chrome&ie=UTF-8">
+					<img class="img" src="https://cdn.myanimelist.net/images/anime/1934/102099.jpg" alt="Kabukichou Sherlock" >
+				</a>
+			</div>
+
+			<div class="animes_baner">
+				<a href="https://www.crunchyroll.com/pt-br/welcome-to-demon-school-iruma-kun">
+					<img class="img" src="https://img1.ak.crunchyroll.com/i/spire4/1b8bbdf3fa604e61cbf760cd93a6ab901570139985_full.jpg" alt="Iruma-kun" >
+				</a>
+			</div>
+		</div>
+		<!-- scripts -->
+		<script src="{% static 'script.js' %}" />
+	</body>
+</html>	
